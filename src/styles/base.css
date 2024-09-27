@@ -1,0 +1,10 @@
+:root {
+  --color-primary: white;
+  --color-secondary: black;
+}
+
+body {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  font-family: "Raleway", "Playfair-Display", "Roboto", sans-serif;
+}
