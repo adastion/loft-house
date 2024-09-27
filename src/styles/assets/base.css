@@ -12,7 +12,7 @@ body {
 body {
   background-color: var(--color-secondary);
   color: var(--color-primary);
-  font-family: "Raleway", "Playfair-Display", "Roboto", sans-serif;
+  font-family: var(--font-primary), sans-serif;
   font-size: 1.6rem;
 }
 

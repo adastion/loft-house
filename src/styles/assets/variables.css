@@ -1,0 +1,10 @@
+:root {
+  --color-primary: white;
+  --color-secondary: #2d343c;
+  --color-accent: #d4c17f;
+
+  --font-size: 62.5%;
+  --font-primary: "Raleway";
+  --font-secondary: "Playfair-Display";
+  --font-accent: "Roboto";
+}
