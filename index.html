@@ -12,22 +12,36 @@
   <div class="wrapper">
     <header class="header">
       <div class="container">
-        <div class="logo">
-          <a href="#"><img src="src/images/logo.svg" alt="logo"></a>
+        <div class="header__panel">
+          <div class="logo">
+            <a href="#"><img src="src/images/logo.svg" alt="logo"></a>
+          </div>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="nabigation__item"><a href="#">О комплексе</a></li>
+              <li class="nabigation__item"><a href="#">Район</a></li>
+              <li class="nabigation__item"><a href="#">Каталог квартир</a></li>
+              <li class="nabigation__item"><a href="#">Ипотека</a></li>
+              <li class="nabigation__item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
         </div>
-        <ul class="navigation">
-          <li class="nabigation__item"><a href="#">О комплексе</a></li>
-          <li class="nabigation__item"><a href="#">Район</a></li>
-          <li class="nabigation__item"><a href="#">Каталог квартир</a></li>
-          <li class="nabigation__item"><a href="#">Ипотека</a></li>
-          <li class="nabigation__item"><a href="#">Контакты</a></li>
-        </ul>
         <div class="header__content">
-          <h1>Жилой комплекс в историческом центре</h1>
+          <h1 class="title">Жилой комплекс <br>в историческом центре</h1>
           <button class="header__mouse"></button>
           <address class="header__contacts">
-            <a href="#">Наб. реки Фонтанки 10-15</a>
-            <a href="tel:88121234567">8 (812) 123-45-67</a>
+            <div class="header__row">
+              <svg class="icon">
+                <use href="src/images/sprite.svg#icon-pointer"></use>
+              </svg>
+              <a class="header__pointer" href="#">Наб. реки Фонтанки 10-15</a>
+            </div>
+            <div class="header__row">
+              <svg class="icon">
+                <use href="src/images/sprite.svg#icon-phone"></use>
+              </svg>
+              <a class="header__phone" href="tel:88121234567">8 (812) 123-45-67</a>
+            </div>
           </address>
         </div>
       </div>
@@ -64,7 +78,7 @@
     </section>
     <section class="apartments">
       <div class="container">
-        <h2>Наши квартиры</h2>
+        <h2 class="title">Наши квартиры</h2>
         <ul class="apartments__list">
           <li class="apartments__item">
             <img src="src/images/product-1.webp" alt="image-previw">
@@ -88,7 +102,7 @@
     <section class="contacts">
       <div class="container">
         <div class="contacts__content">
-          <h2>Хотите посмотреть?</h2>
+          <h2 class="title">Хотите посмотреть?</h2>
           <p class="contacts__text">ЖК LoftHouse – это проект бизнес-класса, расположенный в центре города, на Наб. реки
             Фонтанки 10-15. Комплекс предлагает своим жильцам квартиры площадью от 40 до 170 кв. м. В здании будет три
             секции, в которых разместится всего 56 квартир.</p>
@@ -112,12 +126,12 @@
     </section>
     <section class="map">
       <div class="container">
-        <h2>Район на карте</h2>
+        <h2 class="title">Район на карте</h2>
       </div>
     </section>
     <section class="questions">
       <div class="container">
-        <h2>Есть вопросы?</h2>
+        <h2 class="title">Есть вопросы?</h2>
         <form class="form questions__form">
           <label for="username" class="form__label"></label>
           <input id="username" class="form__field" type="text" placeholder="Ваше имя">
@@ -133,13 +147,15 @@
         <div class="logo">
           <a href="#"><img src="src/images/logo.svg" alt="logo"></a>
         </div>
-        <ul class="navigation">
-          <li class="nabigation__item"><a href="#">О комплексе</a></li>
-          <li class="nabigation__item"><a href="#">Район</a></li>
-          <li class="nabigation__item"><a href="#">Каталог квартир</a></li>
-          <li class="nabigation__item"><a href="#">Ипотека</a></li>
-          <li class="nabigation__item"><a href="#">Контакты</a></li>
-        </ul>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="nabigation__item"><a href="#">О комплексе</a></li>
+            <li class="nabigation__item"><a href="#">Район</a></li>
+            <li class="nabigation__item"><a href="#">Каталог квартир</a></li>
+            <li class="nabigation__item"><a href="#">Ипотека</a></li>
+            <li class="nabigation__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
         <ul class="footer__list">
           <li class="footer__item"><a href="#">Поселение и переезд</a></li>
           <li class="footer__item"><a href="#">Сервисные услуги</a></li>

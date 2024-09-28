@@ -1,0 +1,14 @@
+.navigation {
+}
+
+.navigation__list {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.4rem;
+
+  & ::first-letter {
+    text-transform: uppercase;
+  }
+}
+.nabigation__item {
+}

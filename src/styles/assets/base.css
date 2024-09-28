@@ -14,6 +14,7 @@ body {
   color: var(--color-primary);
   font-family: var(--font-primary), sans-serif;
   font-size: 1.6rem;
+  position: relative;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -36,4 +37,8 @@ a {
   &:hover {
     color: var(--color-accent);
   }
+}
+
+img {
+  max-width: 100%;
 }
