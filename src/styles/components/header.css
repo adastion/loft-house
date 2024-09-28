@@ -6,10 +6,7 @@
   &::before {
     content: "";
     position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     background: linear-gradient(
       var(--color-gradient-1) 12%,
       var(--color-gradient-2) 51%,
