@@ -2,3 +2,9 @@
   color: var(--color-accent);
   font-family: var(--font-secondary);
 }
+
+.title--secondary {
+  & + * {
+    margin-top: 8.8rem;
+  }
+}
