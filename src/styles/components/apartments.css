@@ -1,0 +1,38 @@
+.apartments {
+  & .container {
+  }
+}
+
+.apartments__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.apartments__item {
+  max-height: 32rem;
+  overflow: hidden;
+  position: relative;
+
+  & img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      rgba(var(--color-gradient-1), 0) 0,
+      rgba(var(--color-gradient-1), 1) 100%
+    );
+  }
+}
+
+.apartments__name {
+  position: absolute;
+  left: 5rem;
+  bottom: 5rem;
+  font-size: 2.4rem;
+}

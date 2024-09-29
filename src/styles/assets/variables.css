@@ -2,9 +2,9 @@
   --color-primary: white;
   --color-secondary: #2d343c;
   --color-accent: #d4c17f;
-  --color-gradient-1: rgba(36, 43, 51, 1);
-  --color-gradient-2: rgba(45, 52, 60, 0.38);
-  --color-gradient-3: rgba(36, 43, 51, 1);
+  --color-gradient-1: 36, 43, 51;
+  --color-gradient-2: 45, 52, 60;
+  --color-gradient-3: 36, 43, 51;
 
   --font-size: 62.5%;
   --font-primary: "Raleway";

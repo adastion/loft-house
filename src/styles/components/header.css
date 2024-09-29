@@ -8,9 +8,9 @@
     position: absolute;
     inset: 0;
     background: linear-gradient(
-      var(--color-gradient-1) 12%,
-      var(--color-gradient-2) 51%,
-      var(--color-gradient-3) 92%
+      rgba(var(--color-gradient-1), 1) 12%,
+      rgba(var(--color-gradient-2), 0.38) 51%,
+      rgba(var(--color-gradient-3), 1) 92%
     );
   }
 
