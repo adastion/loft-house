@@ -1,33 +1,33 @@
 @font-face {
   font-family: "Raleway";
-  src: url("../fonts/Raleway-Regular/Raleway-Regular.woff2") format("woff2"),
-    url("../fonts/Raleway-Regular/Raleway-Regular.woff") format("woff"),
-    url("../fonts/Raleway-Regular/Raleway-Regular.ttf") format("ttf");
+  src: url("../../fonts/Raleway-Regular/Raleway-Regular.woff2") format("woff2"),
+    url("../../fonts/Raleway-Regular/Raleway-Regular.woff") format("woff"),
+    url("../../fonts/Raleway-Regular/Raleway-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Raleway";
-  src: url("../fonts/Raleway-Bold/Raleway-Bold.woff2") format("woff2"),
-    url("../fonts/Raleway-Bold/Raleway-Bold.woff") format("woff"),
-    url("../fonts/Raleway-Bold/Raleway-Bold.ttf") format("ttf");
+  src: url("../../fonts/Raleway-Bold/Raleway-Bold.woff2") format("woff2"),
+    url("../../fonts/Raleway-Bold/Raleway-Bold.woff") format("woff"),
+    url("../../fonts/Raleway-Bold/Raleway-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Light/Roboto-Light.woff2") format("woff2"),
-    url("../fonts/Roboto-Light/Roboto-Light.woff") format("woff"),
-    url("../fonts/Roboto-Light/Roboto-Light.ttf") format("ttf");
+  src: url("../../fonts/Roboto-Light/Roboto-Light.woff2") format("woff2"),
+    url("../../fonts/Roboto-Light/Roboto-Light.woff") format("woff"),
+    url("../../fonts/Roboto-Light/Roboto-Light.ttf") format("truetype");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Playfair-Display";
-  src: url("../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff2")
+  src: url("../../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff2")
       format("woff2"),
-    url("../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff")
+    url("../../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff")
       format("woff"),
-    url("../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf") format("ttf");
+    url("../../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf") format("ttf");
   font-weight: 700;
 }
