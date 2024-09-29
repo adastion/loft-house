@@ -4,6 +4,7 @@
 }
 
 .title--secondary {
+  
   & + * {
     margin-top: 8.8rem;
   }

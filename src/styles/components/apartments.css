@@ -1,5 +1,6 @@
 .apartments {
-  & .container {
+  & .container  {
+    padding-top: 0;
   }
 }
 
