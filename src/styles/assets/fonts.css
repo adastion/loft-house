@@ -28,6 +28,6 @@
       format("woff2"),
     url("../../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff")
       format("woff"),
-    url("../../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf") format("ttf");
+    url("../../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf") format("truetype");
   font-weight: 700;
 }
