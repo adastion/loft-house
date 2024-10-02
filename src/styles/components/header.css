@@ -10,7 +10,7 @@
     background: linear-gradient(
       rgba(var(--color-gradient-1), 1) 12%,
       rgba(var(--color-gradient-2), 0.38) 51%,
-      rgba(var(--color-gradient-3), 1) 92%
+      rgba(var(--color-gradient-1), 1) 92%
     );
   }
 

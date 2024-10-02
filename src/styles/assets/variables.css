@@ -1,10 +1,11 @@
 :root {
   --color-primary: white;
-  --color-secondary: #2d343c;
+  --color-secondary: #242B33;
+  --color-bg-footer: #2d343c;
   --color-accent: #d4c17f;
   --color-gradient-1: 36, 43, 51;
   --color-gradient-2: 45, 52, 60;
-  --color-gradient-3: 36, 43, 51;
+  --color-rgb-white: 255, 255, 255;
 
   --font-size: 62.5%;
   --font-primary: "Raleway";
