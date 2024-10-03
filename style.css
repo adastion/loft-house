@@ -8,8 +8,10 @@
 @import "src/styles/components/title.css";
 @import "src/styles/components/logo.css";
 @import "src/styles/components/icon.css";
+@import "src/styles/components/buttons.css";
 @import "src/styles/components/header.css";
 @import "src/styles/components/testimonials.css";
 @import "src/styles/components/apartments.css";
+@import "src/styles/components/contacts.css";
 @import "src/styles/components/navigation.css";
 @import "src/styles/components/footer.css";
