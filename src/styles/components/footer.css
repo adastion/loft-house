@@ -1,4 +1,27 @@
 .footer {
   margin-top: auto;
   background-color: var(--color-bg-footer);
+  padding: 6rem 0;
+
+  & .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: auto;
+    }
+  }
+}
+
+.navigation__list,
+.footer__list,
+.footer__contacts {
+  display: grid;
+  gap: 1.5rem;
+  font-size: 1.4rem;
 }
