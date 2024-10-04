@@ -16,12 +16,22 @@
       grid-template-columns: auto;
     }
   }
+
+  & .navigation__list,
+  & .footer__list,
+  & .footer__contacts {
+    display: grid;
+    gap: 1.5rem;
+    font-size: 1.4rem;
+  }
 }
 
-.navigation__list,
-.footer__list,
-.footer__contacts {
-  display: grid;
-  gap: 1.5rem;
-  font-size: 1.4rem;
+.footer__social {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 2rem;
 }
