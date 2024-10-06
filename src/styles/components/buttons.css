@@ -12,3 +12,35 @@
   background-color: var(--color-accent);
   color: var(--color-primary);
 }
+
+.btn-burger {
+  width: 3.8rem;
+  height: 2.8rem;
+  background: linear-gradient(
+    var(--color-primary),
+    var(--color-primary) 20%,
+    transparent 20%,
+    transparent 40%,
+    var(--color-primary) 40%,
+    var(--color-primary) 60%,
+    transparent 60%,
+    transparent 80%,
+    var(--color-primary) 80%,
+    var(--color-primary) 100%
+  );
+
+  &:hover {
+    background: linear-gradient(
+      var(--color-accent),
+      var(--color-accent) 20%,
+      transparent 20%,
+      transparent 40%,
+      var(--color-accent) 40%,
+      var(--color-accent) 60%,
+      transparent 60%,
+      transparent 80%,
+      var(--color-accent) 80%,
+      var(--color-accent) 100%
+    );
+  }
+}
