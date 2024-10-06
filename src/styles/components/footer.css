@@ -26,6 +26,16 @@
   }
 }
 
+.footer__email {
+  color: var(--color-accent);
+  font-weight: 700;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--color-primary);
+  }
+}
+
 .footer__social {
   display: flex;
   gap: 1.5rem;
