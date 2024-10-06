@@ -1,0 +1,50 @@
+.video {
+  & .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.video__frame {
+  width: 72rem;
+  background-image: url("../../images/preview-video.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+  aspect-ratio: 1.1/1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(var(--color-gradient-1), 0.8);
+    z-index: -1;
+  }
+}
+
+.video__btn {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease-in-out;
+  background: none;
+
+  & .icon {
+    width: inherit;
+    height: inherit;
+    color: var(--color-accent);
+  }
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
