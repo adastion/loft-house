@@ -1,0 +1,7 @@
+.map {
+}
+
+.map__frame {
+  background-color: var(--color-bg-footer);
+  min-height: 49.4rem;
+}
