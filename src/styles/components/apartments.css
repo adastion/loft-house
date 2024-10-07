@@ -14,7 +14,8 @@
   }
 }
 
-.apartments__item {
+.apartments__item a {
+  display: inline-block;
   max-height: 32rem;
   overflow: hidden;
   position: relative;
@@ -32,6 +33,22 @@
       rgba(var(--color-gradient-1), 0) 0,
       rgba(var(--color-gradient-1), 1) 100%
     );
+  }
+
+  &::after {
+    transition: all 0.6s ease-in-out;
+    content: "";
+    position: absolute;
+    margin: 1rem;
+    inset: 0;
+  }
+
+  &:hover,
+  &:focus {
+    &::after {
+      margin: 2rem;
+      border: 0.2rem solid var(--color-primary);
+    }
   }
 }
 
