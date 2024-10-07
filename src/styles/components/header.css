@@ -84,6 +84,14 @@
     top: 0.792rem;
     border-radius: 1rem;
     z-index: 3;
+    transition: top 0.6s ease-in-out;
+  }
+
+  &:hover,
+  &:focus {
+    &:before {
+      top: 2rem;
+    }
   }
 }
 
