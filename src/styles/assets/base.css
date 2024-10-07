@@ -1,7 +1,6 @@
 html {
   font-size: var(--font-size);
   scroll-behavior: smooth;
-  scroll-padding-top: 33%;
   min-width: 36.5rem;
 }
 
