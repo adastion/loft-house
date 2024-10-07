@@ -23,6 +23,7 @@
   & img {
     aspect-ratio: 16/9;
     object-fit: cover;
+    transition: transform 0.6s ease-in-out;
   }
 
   &::before {
@@ -33,6 +34,7 @@
       rgba(var(--color-gradient-1), 0) 0,
       rgba(var(--color-gradient-1), 1) 100%
     );
+    z-index: 4;
   }
 
   &::after {
@@ -41,6 +43,7 @@
     position: absolute;
     margin: 1rem;
     inset: 0;
+    z-index: 5;
   }
 
   &:hover,
@@ -48,6 +51,11 @@
     &::after {
       margin: 2rem;
       border: 0.2rem solid var(--color-primary);
+    }
+    
+    &::before,
+    & img {
+      transform: scale(1.2);
     }
   }
 }
@@ -57,6 +65,7 @@
   left: 5rem;
   bottom: 5rem;
   font-size: 2.4rem;
+  z-index: 10;
 
   @media (max-width: 992px) {
     left: 3rem;
