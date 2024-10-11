@@ -4,6 +4,7 @@
 @import "src/styles/assets/base.css";
 
 @import "src/styles/components/wrapper.css";
+@import "src/styles/components/lightbox.css";
 @import "src/styles/components/numbers.css";
 @import "src/styles/components/container.css";
 @import "src/styles/components/title.css";

@@ -2,11 +2,16 @@ html {
   font-size: var(--font-size);
   scroll-behavior: smooth;
   min-width: 36.5rem;
+
 }
 
 html,
 body {
   height: 100%;
+  
+  &:has( .lightbox--active) {
+    overflow-y: hidden;
+  }
 }
 
 body {

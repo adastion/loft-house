@@ -1,0 +1,22 @@
+.lightbox {
+  position: absolute;
+  height: 200%;
+  inset: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  backdrop-filter: brightness(60%) blur(0.5rem);
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.lightbox__frame {
+  width: 60%;
+  aspect-ratio: 16/9;
+}
+
+.lightbox--active {
+  display: flex;
+}
