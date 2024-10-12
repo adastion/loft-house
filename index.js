@@ -8,13 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault()
     navigationMenu.classList.toggle("navigation--active")
 
-    document.body.style = "overflow: hidden"
+    if (navigationMenu.classList.contains("navigation--active")) {
+      document.body.style = "overflow: hidden"
+    } else {
+      document.body.style = "overflow: scroll"
+    }
   })
 
   navigationMenu.addEventListener("click", (e) => {
     e.currentTarget.classList.remove("navigation--active")
     document.body.style = "overflow: scroll"
-
   })
 
   navigationMenuContent.addEventListener("click", (eventContent) => {
