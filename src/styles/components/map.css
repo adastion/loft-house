@@ -1,7 +1,11 @@
 .map {
+  & .map__frame {
+    background-color: var(--color-bg-footer);
+    min-height: 49.4rem;
+
+    & iframe {
+      width: 100%;
+    }
+  }
 }
 
-.map__frame {
-  background-color: var(--color-bg-footer);
-  min-height: 49.4rem;
-}

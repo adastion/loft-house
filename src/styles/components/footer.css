@@ -31,8 +31,10 @@
   font-weight: 700;
   transition: color 0.3s ease-in-out;
 
-  &:hover {
-    color: var(--color-primary);
+  @media (hover: none) and (pointer: coarse) {
+    &:hover {
+      color: var(--color-primary);
+    }
   }
 }
 

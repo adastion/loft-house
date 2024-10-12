@@ -2,7 +2,6 @@ html {
   font-size: var(--font-size);
   scroll-behavior: smooth;
   min-width: 36.5rem;
-
 }
 
 html,
@@ -18,7 +17,12 @@ body {
   position: relative;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
@@ -35,8 +39,10 @@ a {
   color: inherit;
   transition: color 0.3s ease-in-out;
 
-  &:hover {
-    color: var(--color-accent);
+  @media (hover: none) and (pointer: coarse) {
+    &:hover {
+      color: var(--color-accent);
+    }
   }
 }
 
