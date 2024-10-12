@@ -30,8 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
     triger.addEventListener("click", () => {
 
       popUpElements[indexTrigger].classList.add("lightbox--active")
+      document.body.style = "overflow: hidden"
+
       popUpElements[indexTrigger].addEventListener("click", (eventPopUp) => {
         eventPopUp.target.classList.remove("lightbox--active")
+        document.body.style = "overflow: scroll"
       })
     })
   })

@@ -10,6 +10,7 @@
     z-index: 10;
     backdrop-filter: brightness(60%) blur(0.5rem);
     display: none;
+    overflow-y: auto;
     
     & .navigation__list {
       display: flex;
