@@ -1,10 +1,25 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // open/close menu navigation
   const buttonMenu = document.querySelector(".btn-burger")
-  const navigationMenu = document.querySelector(".header__navigation")
+  const navigationMenu = document.querySelector(".navigation--mobile")
+  const navigationMenuContent = document.querySelector(".navigation__list")
 
   buttonMenu.addEventListener("click", (e) => {
     e.preventDefault()
     navigationMenu.classList.toggle("navigation--active")
+
+    document.body.style = "overflow: hidden"
+  })
+
+  navigationMenu.addEventListener("click", (e) => {
+    e.currentTarget.classList.remove("navigation--active")
+    document.body.style = "overflow: scroll"
+
+  })
+
+  navigationMenuContent.addEventListener("click", (eventContent) => {
+    eventContent.stopPropagation()
+    console.log("click")
   })
 
   // video pop-up

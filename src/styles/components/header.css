@@ -26,10 +26,6 @@
   }
 
   @media (max-width: 768px) {
-    & .navigation {
-      display: none;
-    }
-
     & .btn-burger {
       display: flex;
     }
