@@ -83,12 +83,10 @@
     transition: top 0.6s ease-in-out;
   }
 
-  @media (hover: none) and (pointer: coarse) {
-    &:hover,
-    &:focus {
-      &:before {
-        top: 2rem;
-      }
+  &:hover,
+  &:focus {
+    &:before {
+      top: 2rem;
     }
   }
 }
@@ -115,10 +113,8 @@
       transition: color 0.3s ease-in-out;
     }
 
-    @media (hover: none) and (pointer: coarse) {
-      &:hover {
-        color: var(--color-accent);
-      }
+    &:hover {
+      color: var(--color-accent);
     }
   }
 }

@@ -39,10 +39,9 @@ a {
   color: inherit;
   transition: color 0.3s ease-in-out;
 
-  @media (hover: none) and (pointer: coarse) {
-    &:hover {
-      color: var(--color-accent);
-    }
+
+  &:hover {
+    color: var(--color-accent);
   }
 }
 
