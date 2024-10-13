@@ -39,9 +39,10 @@ a {
   color: inherit;
   transition: color 0.3s ease-in-out;
 
-
-  &:hover {
-    color: var(--color-accent);
+  @media (hover: hover) {
+    &:hover {
+      color: var(--color-accent);
+    }
   }
 }
 

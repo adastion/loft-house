@@ -15,6 +15,7 @@
 
     & .navigation__list {
       display: flex;
+      align-items: stretch;
       flex-direction: column;
       gap: 0;
       width: 100%;
@@ -52,6 +53,7 @@
 
 .navigation__list {
   display: flex;
+  align-items: center;
   gap: 4rem;
   font-size: 1.4rem;
 

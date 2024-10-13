@@ -46,16 +46,18 @@
     z-index: 5;
   }
 
-  &:hover,
-  &:focus {
-    &::after {
-      margin: 2rem;
-      border: 0.2rem solid var(--color-primary);
-    }
-    
-    &::before,
-    & img {
-      transform: scale(1.2);
+  @media (hover: hover) {
+    &:hover,
+    &:focus {
+      &::after {
+        margin: 2rem;
+        border: 0.2rem solid var(--color-primary);
+      }
+
+      &::before,
+      & img {
+        transform: scale(1.2);
+      }
     }
   }
 }
