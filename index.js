@@ -41,5 +41,33 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     })
   })
-
+  
+  // switch theme colors
+  const btnSwitchColors = document.querySelector(".btn--theme")
+  
+  let currentTheme = localStorage.getItem("currentTheme")
+  
+  if (!currentTheme) {
+    const defaultTheme = document.body.getAttribute("data-theme")
+    localStorage.setItem("currentTheme", defaultTheme)
+  } else {
+    switchingСolors(currentTheme)
+  }
+  
+  
+  btnSwitchColors.addEventListener("click", () => {
+    if (!currentTheme || currentTheme === "light") {
+      currentTheme = "dark"
+    } else {
+      currentTheme = "light"
+    }
+  
+    localStorage.setItem("currentTheme", currentTheme)
+    switchingСolors(currentTheme)
+  })
+  
+  function switchingСolors(currentTheme) {
+    document.body.setAttribute("data-theme", currentTheme)
+  }
 })
+
