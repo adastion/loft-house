@@ -21,7 +21,8 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(var(--color-gradient-1), 0.8);
+    background-color: rgba(var(--color-gradient-1));
+    opacity: var(--color-opacity);
     z-index: -1;
   }
 }

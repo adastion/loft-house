@@ -14,15 +14,16 @@
 
   &::before {
     background: linear-gradient(
-      rgba(var(--color-gradient-1), 1) 10%,
-      rgba(var(--color-gradient-1), 0.38) 51%,
-      rgba(var(--color-gradient-1), 1) 90%
+      rgba(var(--color-gradient-1)) 10%,
+      rgba(var(--color-gradient-4)) 51%,
+      rgba(var(--color-gradient-1)) 90%
     );
     z-index: 2;
   }
 
   &::after {
-    background: rgba(var(--color-gradient-1), 0.9);
+    background: rgba(var(--color-gradient-1));
+    opacity: 0.9;
   }
 
   & .container {
@@ -57,10 +58,7 @@
   }
 }
 
-.form {
-  display: grid;
-  gap: 3.5rem;
-}
+
 
 .contacts__form {
   grid-row: 2/3;
@@ -73,24 +71,5 @@
 
   @media (max-width: 768px) {
     grid-template-columns: auto;
-  }
-}
-
-.form__message {
-  font-size: 1.3rem;
-  text-align: center;
-  line-height: 1.6;
-}
-
-.form__field {
-  padding: 0;
-  text-align: center;
-  font-family: var(--font-primary);
-  font-size: 1.4rem;
-  font-weight: 300;
-  background-color: rgba(var(--color-rgb-white), 0.2);
-
-  &::placeholder {
-    color: rgba(var(--color-rgb-white), 0.7);
   }
 }

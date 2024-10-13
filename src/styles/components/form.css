@@ -1,0 +1,23 @@
+.form {
+  display: grid;
+  gap: 3.5rem;
+}
+
+.form__message {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.form__field {
+  padding: 0;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  font-weight: 300;
+  background-color: rgba(var(--color-rgb-translucent-1));
+
+  &::placeholder {
+    color: rgba(var(--color-rgb-translucent-2));
+  }
+}
