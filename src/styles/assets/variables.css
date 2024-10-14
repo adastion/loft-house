@@ -20,14 +20,14 @@ body[data-theme="dark"] {
 }
 
 body[data-theme="light"] {
-  --color-primary: #0f1933;
-  --color-secondary: #dbd4cc;
-  --color-bg-footer: #d2cbc3;
-  --color-accent: #20b46d;
-  --color-gradient-1: 219, 212, 204, 1;
-  --color-gradient-2: 210, 203, 195, 0.38;
-  --color-gradient-3: 219, 212, 204, 0;
-  --color-gradient-4: 219, 212, 204, 0.38;
+  --color-primary: #f5fe1a;
+  --color-secondary: #2f3324;
+  --color-bg-footer: #393c2d;
+  --color-accent: #7fb9d4;
+  --color-gradient-1: 47, 51, 36, 1;
+  --color-gradient-2: 57, 60, 45, 0.38;
+  --color-gradient-3: 47, 51, 36, 0;
+  --color-gradient-4: 47, 51, 36, 0.38;
   --color-rgb-translucent-1: 0, 0, 0, 0.2;
   --color-rgb-translucent-2: 0, 0, 0, 0.5;
   --color-opacity: 0.3;
