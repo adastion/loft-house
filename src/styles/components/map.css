@@ -1,11 +1,23 @@
 .map {
   & .map__frame {
     background-color: var(--color-bg-footer);
+    background-image: url("../../images/preview-map.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: var(--color-opacity);
     min-height: 49.4rem;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 1;
+      }
+    }
 
     & iframe {
       width: 100%;
     }
   }
 }
-

@@ -29,11 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const popUpElements = Array.from(document.querySelectorAll(".lightbox"))
   const triggersPopUpElement = document.querySelectorAll(".trigger-popup")
 
-  triggersPopUpElement.forEach((triger, indexTrigger) => {
-    triger.addEventListener("click", () => {
+console.log(popUpElements, triggersPopUpElement)
 
-      popUpElements[indexTrigger].classList.add("lightbox--active")
-      document.body.style = "overflow: hidden"
+triggersPopUpElement.forEach((triger, indexTrigger) => {
+  triger.addEventListener("click", () => {
+    console.log(triger, indexTrigger)
+    
+    popUpElements[indexTrigger].classList.add("lightbox--active")
+    document.body.style = "overflow: hidden"
 
       popUpElements[indexTrigger].addEventListener("click", (eventPopUp) => {
         eventPopUp.target.classList.remove("lightbox--active")

@@ -9,7 +9,7 @@
   <title>loft-house</title>
 </head>
 
-<body data-theme="light">
+<body data-theme="dark">
   <div class="numbers wrapper">
     <header class="header">
       <div class="container">
@@ -131,7 +131,7 @@
       <h2 class="title title--secondary visually-hidden">Видео</h2>
       <div class="container">
         <div class="video__frame">
-          <button class="btn video__btn trigger-popup">
+          <button class="btn video__btn trigger-popup" aria-label="open-video">
             <svg class="icon">
               <use href="src/images/sprite.svg#icon-play"></use>
             </svg>
@@ -149,12 +149,12 @@
     <section id="locationOnMap" class="numbers__item map">
       <div class="container">
         <h2 class="title title--secondary">Район на карте</h2>
-        <div class="map__frame">
-          <div style="position:relative;overflow:hidden;">
-            <iframe title="YMap"
-              src="https://yandex.by/map-widget/v1/?ll=30.338928%2C59.943544&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozODA4NDkxMDMwEl_QoNC-0YHRgdC40Y8sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQvdCw0LHQtdGA0LXQttC90LDRjyDRgNC10LrQuCDQpNC-0L3RgtCw0L3QutC4LCAxMCIKDSC28kEVMMZvQg%2C%2C&z=16"
-              height="494" allowfullscreen></iframe>
-          </div>
+        <div class="map__frame trigger-popup">
+        </div>
+        <div class="lightbox">
+          <iframe class="lightbox__frame" title="YMap"
+            src="https://yandex.by/map-widget/v1/?ll=30.338928%2C59.943544&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozODA4NDkxMDMwEl_QoNC-0YHRgdC40Y8sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQvdCw0LHQtdGA0LXQttC90LDRjyDRgNC10LrQuCDQpNC-0L3RgtCw0L3QutC4LCAxMCIKDSC28kEVMMZvQg%2C%2C&z=16"
+            width="800" height="494" allowfullscreen></iframe>
         </div>
       </div>
     </section>
@@ -210,21 +210,21 @@
                   </a>
                 </li>
                 <li class="footer__icon">
-                  <a href="#">
+                  <a href="#" aria-label="to visit vk">
                     <svg class="icon">
                       <use href="src/images/sprite.svg#icon-vk"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="footer__icon">
-                  <a href="#">
+                  <a href="#" aria-label="to visit facebook">
                     <svg class="icon">
                       <use href="src/images/sprite.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="footer__icon">
-                  <a href="#">
+                  <a href="#" aria-label="to visit instagram">
                     <svg class="icon">
                       <use href="src/images/sprite.svg#icon-instagram"></use>
                     </svg>
