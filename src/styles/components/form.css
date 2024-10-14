@@ -18,6 +18,7 @@
   background-color: rgba(var(--color-rgb-translucent-1));
 
   &::placeholder {
-    color: rgba(var(--color-rgb-translucent-2));
+    color: inherit;
+    opacity: 0.4;
   }
 }

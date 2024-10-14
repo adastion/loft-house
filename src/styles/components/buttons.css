@@ -11,6 +11,13 @@
   font-weight: 700;
   background-color: var(--color-accent);
   color: var(--color-primary);
+  transition: transform 0.3s ease-in-out;
+
+  @media (hover: hover) {
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
 }
 
 .btn-burger {
@@ -55,7 +62,7 @@
 
   @media (hover: hover) {
     &:hover {
-      color: var(--color-accent)
+      color: var(--color-accent);
     }
   }
   &:active {
